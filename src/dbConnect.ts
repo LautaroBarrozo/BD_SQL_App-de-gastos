@@ -1,6 +1,8 @@
 import mysql, {Connection} from "mysql"
 
-const DATABASE_URL = 'mysql://rdef9x03oaqmbaa50qny:pscale_pw_KBKr0Hs2cHwQSwzjuwXTnoQPWZFhOPQMLo0yUwZph7P@aws.connect.psdb.cloud/gastos?ssl={"rejectUnauthorized":true}'
+
+// poner url de base de datos
+const DATABASE_URL = ''
 
 let connection: Connection | null = null 
 
